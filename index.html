@@ -1,93 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
-	<link rel="stylesheet" href="style.css">
-	<title>AdminSite</title>
-</head>
-<body>
-	
-	<!-- SIDEBAR -->
-	<section id="sidebar">
-		<a href="#" class="brand"><i class='bx bxs-smile icon'></i> AdminSite</a>
-		<ul class="side-menu">
-			<li><a href="#" class="active"><i class='bx bxs-dashboard icon' ></i> Dashboard</a></li>
-			<li class="divider" data-text="main">Main</li>
-			<li>
-				<a href="#"><i class='bx bxs-inbox icon' ></i> Elements <i class='bx bx-chevron-right icon-right' ></i></a>
-				<ul class="side-dropdown">
-					<li><a href="#">Alert</a></li>
-					<li><a href="#">Badges</a></li>
-					<li><a href="#">Breadcrumbs</a></li>
-					<li><a href="#">Button</a></li>
-				</ul>
-			</li>
-			<li><a href="#"><i class='bx bxs-chart icon' ></i> Charts</a></li>
-			<li><a href="#"><i class='bx bxs-widget icon' ></i> Widgets</a></li>
-			<li class="divider" data-text="table and forms">Table and forms</li>
-			<li><a href="#"><i class='bx bx-table icon' ></i> Tables</a></li>
-			<li>
-				<a href="#"><i class='bx bxs-notepad icon' ></i> Forms <i class='bx bx-chevron-right icon-right' ></i></a>
-				<ul class="side-dropdown">
-					<li><a href="#">Basic</a></li>
-					<li><a href="#">Select</a></li>
-					<li><a href="#">Checkbox</a></li>
-					<li><a href="#">Radio</a></li>
-				</ul>
-			</li>
-		</ul>
-		<div class="ads">
-			<div class="wrapper">
-				<a href="#" class="btn-upgrade">Upgrade</a>
-				<p>Become a <span>PRO</span> member and enjoy <span>All Features</span></p>
-			</div>
-		</div>
-	</section>
-	<!-- SIDEBAR -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Chunks</title>
+    <link rel="shortcut icon" href="./ch.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- SIDEBAR -->
+    <section id="sidebar">
+      <a href="#" class="brand"
+        ><i class="bx bxs-smile icon"></i> RodrigoJavier</a
+      >
+      <ul class="side-menu">
+        <!-- <li>
+          <a href="#" class="active"
+            ><i class="bx bxs-dashboard icon"></i> Dashboard</a
+          >
+        </li> -->
+        <li class="divider" data-text="main">Main</li>
+        <li>
+          <a href="#"
+            ><i class="bx bxs-inbox icon"></i> Elements
+            <i class="bx bx-chevron-right icon-right"></i
+          ></a>
+          <ul class="side-dropdown">
+            <li><a href="#">Alert</a></li>
+            <li><a href="#">Badges</a></li>
+            <li><a href="#">Breadcrumbs</a></li>
+            <li><a href="#">Button</a></li>
+          </ul>
+        </li>
+        <li class="divider" data-text="table and forms">Table and forms</li>
+        <li>
+          <a href="#"
+            ><i class="bx bxs-notepad icon"></i> Forms
+            <i class="bx bx-chevron-right icon-right"></i
+          ></a>
+          <ul class="side-dropdown">
+            <li><a href="#">Basic</a></li>
+            <li><a href="#">Select</a></li>
+            <li><a href="#">Checkbox</a></li>
+            <li><a href="#">Radio</a></li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <!-- SIDEBAR -->
 
-	<!-- NAVBAR -->
-	<section id="content">
-		<!-- NAVBAR -->
-		<nav>
-			<i class='bx bx-menu toggle-sidebar' ></i>
-			<form action="#">
-				<div class="form-group">
-					<input type="text" placeholder="Search...">
-					<i class='bx bx-search icon' ></i>
-				</div>
-			</form>
-			<a href="#" class="nav-link">
-				<i class='bx bxs-bell icon' ></i>
-				<span class="badge">5</span>
-			</a>
-			<a href="#" class="nav-link">
-				<i class='bx bxs-message-square-dots icon' ></i>
-				<span class="badge">8</span>
-			</a>
-			<span class="divider"></span>
-			<div class="profile">
-				<img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGVvcGxlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
-				<ul class="profile-link">
-					<li><a href="#"><i class='bx bxs-user-circle icon' ></i> Profile</a></li>
-					<li><a href="#"><i class='bx bxs-cog' ></i> Settings</a></li>
-					<li><a href="#"><i class='bx bxs-log-out-circle' ></i> Logout</a></li>
-				</ul>
-			</div>
-		</nav>
-		<!-- NAVBAR -->
+    <section id="content">
+      <!-- NAVBAR -->
+      <nav>
+        <i class="bx bx-menu toggle-sidebar"></i>
+        <form action="#">
+          <div class="form-group">
+            <input hidden type="text" placeholder="Search..." />
+            <!-- <i class="bx bx-search icon"></i> -->
+          </div>
+        </form>
 
-		<!-- MAIN -->
-		<main>
-			<h1 class="title">Dashboard</h1>
-			<ul class="breadcrumbs">
-				<li><a href="#">Home</a></li>
-				<li class="divider">/</li>
-				<li><a href="#" class="active">Dashboard</a></li>
-			</ul>
-			<div class="info-data">
-				<div class="card">
+        <span class="divider"></span>
+        <div class="profile">
+          <img src="./ch.png" alt="" />
+          <ul class="profile-link">
+            <li>
+              <a href="#"><i class="bx bxs-user-circle icon"></i> Profile</a>
+            </li>
+            <li>
+              <a href="#"><i class="bx bxs-cog"></i> Settings</a>
+            </li>
+            <li>
+              <a href="#"><i class="bx bxs-log-out-circle"></i> Logout</a>
+            </li>
+            <li>
+              <a href="#"><i class="bx bxs-log-out-circle"></i> Logout</a>
+            </li>
+            <li>
+              <a href="#"><i class="bx bxs-log-out-circle"></i> Logout</a>
+            </li>
+            <li>
+              <a href="#"><i class="bx bxs-log-out-circle"></i> Logout</a>
+            </li>
+            <li>
+              <a href="#"><i class="bx bxs-log-out-circle"></i> Logout</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- NAVBAR -->
+
+      <!-- MAIN -->
+      <main>
+        <h1 class="title">Content</h1>
+        <ul class="breadcrumbs">
+          <!-- <li><a href="#">Home</a></li> -->
+          <!-- <li class="divider">/</li> -->
+          <!-- <li><a href="#" class="active">Dashboard</a></li> -->
+        </ul>
+        <div class="info-data">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+          est accusamus. Eum impedit obcaecati debitis nemo accusantium tenetur
+          quia omnis adipisci, magnam deleniti accusamus praesentium a optio
+          voluptates ut quaerat mollitia earum voluptatem dignissimos quam atque
+          qui. Autem provident odio magnam quas velit natus non rem, ea tempora
+          nesciunt maiores, pariatur quisquam ullam deserunt a laborum nostrum
+          illum, voluptates excepturi atque eum nulla. Quas voluptatibus modi
+          mollitia totam optio asperiores quod quasi, explicabo nostrum ullam,
+          reiciendis temporibus ratione aliquam rerum maiores nam iste vero est
+          voluptate. Quisquam, labore eos quo nihil perferendis officiis enim
+          ipsum sed, ex eius assumenda dolore delectus soluta voluptatem
+          quaerat, deleniti iure eligendi accusantium exercitationem! Atque
+          accusamus ab ut totam voluptatum eos hic sed ipsa. Doloremque magni,
+          commodi nostrum quia dicta voluptatibus aliquam, quae facilis, maiores
+          obcaecati quidem! Enim officiis id aliquam. Tempore reprehenderit
+          inventore, aperiam sapiente quas blanditiis ipsa perferendis iste
+          exercitationem. Reiciendis voluptates fugiat similique praesentium?
+          Fugiat placeat laboriosam culpa quisquam, reprehenderit eius maiores.
+          Nostrum corporis beatae quam, doloremque provident, blanditiis
+          assumenda esse, rem similique dicta earum. Ullam ipsa modi, provident
+          voluptate doloribus, officiis aut amet iste tempora, reiciendis
+          aperiam sunt cum saepe nam sequi velit odio! Ducimus quo vel nam eum
+          sit architecto quibusdam praesentium debitis. Dolores laudantium
+          aperiam dolor ducimus aliquid possimus libero. Fugit ea sequi deleniti
+          quidem tempore veniam beatae rerum, explicabo autem ratione, expedita
+          eligendi, voluptas possimus ipsum voluptatibus dignissimos? Mollitia
+          id libero magnam dolore soluta! Corrupti nihil aliquam repellat.
+          Veniam sequi magni omnis numquam explicabo praesentium amet dolore
+          libero distinctio voluptatibus? Assumenda magni illo, debitis ipsa
+          laudantium, perspiciatis explicabo iure, corporis doloribus eveniet
+          est esse! Ullam architecto voluptatem, modi quos hic rem est
+          explicabo, itaque nulla quaerat, debitis impedit! Quis, iure, debitis
+          quibusdam sint ad eum odit inventore impedit in corporis blanditiis
+          minima possimus pariatur assumenda eveniet, praesentium alias tempore
+          esse ex! Voluptates asperiores accusamus aut vero. Reiciendis incidunt
+          distinctio temporibus voluptatem. Veniam corporis optio obcaecati
+          incidunt amet, exercitationem ratione debitis architecto odit error
+          fuga iste vel aut id est praesentium rem voluptates consectetur ad
+          nemo accusantium voluptatem maxime? Laboriosam voluptate cumque, enim
+          aliquam voluptatibus impedit ducimus neque ab adipisci magni, pariatur
+          obcaecati perferendis nemo, culpa voluptates nulla optio tempore unde
+          dignissimos omnis officia eius? Et exercitationem ad illo nisi
+          laboriosam sequi iste at dolores architecto, maiores velit quidem
+          deleniti tempora cumque. A, eos! Nesciunt dignissimos minus corporis
+          maxime dolores commodi iusto dolor soluta recusandae perferendis
+          debitis quo hic dicta labore nemo, quis ipsam voluptate distinctio
+          suscipit vero ipsa quod? Officia, eius accusantium. Alias voluptas
+          commodi nisi dolorem ullam laudantium. Obcaecati libero perferendis
+          tenetur cum ex unde voluptate expedita nostrum optio in officiis sunt
+          omnis sapiente consectetur natus praesentium facere doloremque, odit
+          fugiat quaerat quos earum animi! Ad possimus delectus obcaecati natus
+          a? Ratione obcaecati minima cumque labore neque, laboriosam laborum
+          omnis ducimus doloribus tempora, voluptate tenetur rerum! Quis ex at
+          commodi voluptatem reiciendis. Deserunt, maxime. Neque optio a,
+          numquam ab excepturi aspernatur ipsum exercitationem placeat
+          consequuntur omnis esse corrupti natus? Odit vero laboriosam harum
+          deserunt earum enim sint facere maxime similique officia porro
+          perferendis, incidunt saepe praesentium neque possimus nesciunt! Nobis
+          laborum, placeat omnis recusandae quia blanditiis, consequatur iste
+          eum error qui tempora eveniet doloribus a ullam repellat minus
+          tempore. Labore illum voluptate at unde veritatis optio, dicta quidem
+          sequi ut reiciendis nostrum ipsam maxime nihil, quos adipisci dolores
+          non accusamus? Modi, perferendis accusamus velit temporibus soluta
+          voluptatem voluptatum obcaecati placeat voluptatibus magni dicta
+          deleniti reiciendis sapiente minima quibusdam voluptate, cupiditate
+          repellendus quisquam qui aspernatur? Totam rerum in eos blanditiis
+          voluptates unde minus at, omnis amet sed quis molestias nostrum
+          temporibus optio iste recusandae praesentium aliquid cum voluptatum
+          dolorem quisquam? Assumenda, labore sapiente itaque dolor quo
+          voluptate fugit. Esse, saepe illum sit ratione sint distinctio quas
+          quam nam fuga, iste deleniti doloremque repellendus rem blanditiis
+          molestiae officia enim. Nihil, atque, natus temporibus nam molestias
+          asperiores, tempore velit magnam quo iste possimus perferendis illo
+          accusantium reprehenderit? Quo recusandae quam cupiditate nesciunt
+          inventore esse ut sit, vel ipsa, doloremque nulla animi autem quaerat
+          obcaecati molestiae odit nostrum iste id? Error omnis aspernatur
+          cupiditate enim labore in. Alias veniam commodi provident, maxime
+          saepe est quo perferendis, earum deleniti deserunt rerum, harum
+          distinctio illum sed! Pariatur commodi ipsum, dignissimos laborum
+          quisquam quaerat delectus velit laboriosam, unde hic veniam
+          voluptatibus nemo corporis, quod reiciendis laudantium nesciunt modi
+          architecto! Iste nihil necessitatibus aspernatur facere animi quidem
+          hic adipisci incidunt molestiae! Iste excepturi, facilis expedita
+          ratione impedit, doloremque officiis cum id maiores numquam minus
+          commodi illo inventore cupiditate vitae dignissimos ducimus rerum
+          accusantium ea totam iure. Labore alias cum voluptatum nobis! Impedit
+          maxime maiores inventore repellendus ipsa, necessitatibus nesciunt
+          enim, aliquam nostrum est minus, consectetur dolorem blanditiis omnis
+          quam recusandae. Perferendis, nisi cum, esse molestiae, ex
+          exercitationem tempore dolorum porro architecto commodi deserunt minus
+          odio laboriosam incidunt. Dignissimos tempore, veniam vitae molestiae
+          cupiditate est voluptatem eveniet! Voluptate tenetur ab quo, amet
+          mollitia minus omnis doloremque dolorem nulla ratione dolor molestias
+          impedit repellat, distinctio libero voluptates exercitationem rem,
+          voluptatem alias. Corporis fugit repudiandae non doloremque illum, cum
+          sed, ratione eum fuga numquam eaque deleniti sequi culpa? Odio,
+          aperiam nesciunt exercitationem culpa velit ut rerum dolore
+          consequuntur aliquam, placeat veritatis dolorem modi eius optio error
+          pariatur labore excepturi vero autem nobis earum, quidem nostrum? Iste
+          saepe placeat accusantium, eaque temporibus, sapiente, unde corporis
+          laboriosam at error possimus. Reiciendis temporibus voluptatum, nam
+          molestias fuga enim iste optio. Ex natus maiores quas iusto error cum
+          minus suscipit in quidem vero, accusamus tenetur porro aut dolorem id,
+          expedita recusandae quis ullam dignissimos laborum autem nisi maxime
+          asperiores voluptas? Quisquam ratione accusamus et rem quasi deleniti
+          minus quas temporibus, nobis illum ipsa non sequi reprehenderit fugiat
+          vitae commodi! Illo ut distinctio exercitationem quo id impedit cum
+          neque obcaecati recusandae tenetur cupiditate sint temporibus
+          quibusdam iste ipsum commodi, perferendis quae quam accusamus
+          eligendi. Esse, corrupti voluptatibus veniam perferendis aspernatur
+          odio neque reiciendis consequuntur saepe adipisci deserunt incidunt
+          delectus accusamus suscipit laudantium iste beatae voluptas itaque.
+          Dolorum, provident. Delectus ut recusandae eos inventore cum. Quos
+          ipsam repellendus beatae ipsa excepturi necessitatibus optio
+          consequuntur!
+          <!-- <div class="card">
 					<div class="head">
 						<div>
 							<h2>1500</h2>
@@ -130,10 +261,10 @@
 					</div>
 					<span class="progress" data-value="80%"></span>
 					<span class="label">80%</span>
-				</div>
-			</div>
-			<div class="data">
-				<div class="content-data">
+				</div> -->
+        </div>
+        <div class="data">
+          <!-- <div class="content-data">
 					<div class="head">
 						<h3>Sales Report</h3>
 						<div class="menu">
@@ -204,14 +335,13 @@
 							<button type="submit" class="btn-send"><i class='bx bxs-send' ></i></button>
 						</div>
 					</form>
-				</div>
-			</div>
-		</main>
-		<!-- MAIN -->
-	</section>
-	<!-- NAVBAR -->
+				</div> -->
+        </div>
+      </main>
+      <!-- MAIN -->
+    </section>
 
-	<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
-	<script src="script.js"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
